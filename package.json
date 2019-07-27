@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "testcafe chrome:headless test.js --skip-js-errors"
+    "test": "testcafe chrome:headless test.js"
   },
   "devDependencies": {
     "testcafe": "*"
