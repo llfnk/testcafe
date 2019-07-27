@@ -6,7 +6,7 @@ export default async function () {
     await t.expect(error[0]).notOk();
 }
 import Page from './model/page-model';
-
+//komentarz
 const page = new Page();
 import {Selector, RequestLogger} from 'testcafe';
 
