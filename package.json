@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "testcafe chrome:headless test.js --skip-js-errors"
+  },
+  "devDependencies": {
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}

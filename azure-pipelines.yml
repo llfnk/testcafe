@@ -1,0 +1,14 @@
+jobs:
+    - job: e2e_tests
+      pool:
+          vmImage: 'Ubuntu 16.04'
+      steps:
+          - task: NodeTool@0
+            inputs:
+                # Replace '10.14' with the latest Node.js LTS version
+                versionSpec: '10.14'
+            displayName: 'Install Node.js'
+          - script: npm install
+            displayName: 'Install TestCafe'
+          - script: npm test
+            displayName: 'Run TestCafe Tests'
