@@ -7,6 +7,7 @@ export default async function () {
 }
 import Page from './model/page-model';
 //komentarz
+//komentarz
 const page = new Page();
 import {Selector, RequestLogger} from 'testcafe';
 
